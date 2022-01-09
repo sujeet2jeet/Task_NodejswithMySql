@@ -1,0 +1,22 @@
+{
+  "name": "task_nodejswithmysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Tasks, NodeJs, MySql"
+  ],
+  "author": "Sujeet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.5",
+    "validator": "^13.7.0"
+  }
+}
